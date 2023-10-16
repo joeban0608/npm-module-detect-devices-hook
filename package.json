@@ -1,0 +1,43 @@
+{
+  "name": "react-detect-devices-hook-joeban0608",
+  "version": "1.0.0",
+  "description": "react Detect Devices hooks",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "publish": "npm publish"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "detect-device",
+    "hook",
+    "joeban0608"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joeban0608/npm-module-detect-devices-hook.git"
+  },
+  "author": "joeban0608",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
